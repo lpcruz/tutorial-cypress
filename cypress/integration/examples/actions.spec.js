@@ -13,11 +13,8 @@ context("Actions", () => {
 
   it(".type() - type into a DOM element", () => {
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -64,11 +61,8 @@ context("Actions", () => {
 
   it(".focus() - focus on a DOM element", () => {
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -90,11 +84,8 @@ context("Actions", () => {
 
   it(".blur() - blur off a DOM element", () => {
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -118,11 +109,8 @@ context("Actions", () => {
   it(".clear() - clears an input or textarea element", () => {
     // https://on.cypress.io/clear
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -145,8 +133,8 @@ context("Actions", () => {
   it(".submit() - submit a form", () => {
     // https://on.cypress.io/submit
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [{ width: 1024, height: 768, name: "firefox" }],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -172,11 +160,8 @@ context("Actions", () => {
   it(".click() - click on a DOM element", () => {
     // https://on.cypress.io/click
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -238,11 +223,8 @@ context("Actions", () => {
   it(".dblclick() - double click on a DOM element", () => {
     // https://on.cypress.io/dblclick
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -266,11 +248,8 @@ context("Actions", () => {
   it(".check() - check a checkbox or radio element", () => {
     // https://on.cypress.io/check
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -314,11 +293,8 @@ context("Actions", () => {
   it(".uncheck() - uncheck a checkbox element", () => {
     // https://on.cypress.io/uncheck
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -356,11 +332,8 @@ context("Actions", () => {
     // https://on.cypress.io/select
 
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -397,11 +370,8 @@ context("Actions", () => {
   it(".scrollIntoView() - scroll an element into view", () => {
     // https://on.cypress.io/scrollintoview
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
@@ -465,11 +435,8 @@ context("Actions", () => {
     // https://on.cypress.io/scrollTo
 
     cy.eyesOpen({
-      baselineEnvName: "CrossBrowser",
-      browser: [
-       
-        { width: 1024, height: 768, name: "firefox" }
-      ],
+      //baselineEnvName: "CrossBrowser",
+      browser: [{ width: 1024, height: 768, name: "chrome" }],
 
       batchName: "actions.spec",
       appName: "Cypress Example app",
